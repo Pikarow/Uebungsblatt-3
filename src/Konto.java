@@ -6,7 +6,12 @@ public class Konto {
 Konto (Person person, double kontostand){}
 
 void einzahlen (double betrag ){
-    kontostand = kontostand+betrag;
+    if (betrag <0 ){
+        System.out.println("Betrag konnte nicht eingezahlt werden, da keine negativen Zahlen eingezahlt werden können");
+    }
+    else {
+    kontostand = kontostand+betrag;}
+
 }
 void auszahlen (double betrag){
     if ( betrag > kontostand){
