@@ -12,7 +12,8 @@ void auszahlen (double betrag){
     if ( betrag > kontostand){
     System.out.println("Betrag konnte nicht abgehoben werden, da der kontostand zu gering ist.");
     }
-    kontostand = kontostand-betrag;
+    else{
+    kontostand = kontostand-betrag;}
 }
 
 }
