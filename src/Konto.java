@@ -11,7 +11,11 @@ void einzahlen (double betrag ){
 void auszahlen (double betrag){
     kontostand=kontostand-betrag;
     if ( betrag > kontostand){
+    System.out.println(Betrag konnte nicht abgehoben)
+    }
+}
 
+} );
     }
 }
 
