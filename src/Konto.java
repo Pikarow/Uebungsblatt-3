@@ -4,4 +4,9 @@ public class Konto {
 
 
 Konto (Person person, double kontostand){}
+
+void einzahlen (double betrag ){}
+
+
 }
+
