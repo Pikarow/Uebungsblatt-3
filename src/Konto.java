@@ -13,7 +13,7 @@ void einzahlen (double betrag ){
     }
     else {
     kontostand = kontostand + betrag;}
-
+    System.out.println(kontostand);
 }
 void auszahlen (double betrag){
     if ( betrag > kontostand){
@@ -21,6 +21,7 @@ void auszahlen (double betrag){
     }
     else{
     kontostand = kontostand - betrag;}
+    System.out.println(kontostand);
 }
 
 }
