@@ -4,7 +4,7 @@ public class Konto {
 
 
 Konto (Person person, double kontostand){
-    this.person= person; this.kontostand=kontostand
+    this.person = person; this.kontostand = kontostand;
 }
 
 void einzahlen (double betrag ){
