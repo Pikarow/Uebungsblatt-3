@@ -15,9 +15,4 @@ void auszahlen (double betrag){
     }
 }
 
-} );
-    }
 }
-
-}
-
